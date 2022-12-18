@@ -1,3 +1,61 @@
+body {
+    background-color: rgb(205, 233, 231);
+    font-family: 'Chivo Mono',
+        monospace;
+    line-height: normal;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 html {
     margin: 0;
+    scroll-behavior: smooth;
+}
+
+.title {
+    color: rgb(3, 72, 68);
+}
+
+p {
+    color: black;
+    font-size: larger;
+}
+
+.pagination {
+    color: rgb(3, 72, 68);
+}
+
+div {
+    width: fit-content;
+}
+
+.card {
+    width: 200px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.code {
+    color: brown;
+    font-size: 20px;
 }
